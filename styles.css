@@ -1,12 +1,12 @@
 /* add your CSS here */
-#card {
+.cardfloor {
     width: 370px;
     height: 675px;
     border: 1px solid black;
     padding: 15px;
 }
 
-#floater {
+.card__floating {
     width: 330px;
     height: 640px;
     border: 1px solid black;
@@ -14,14 +14,14 @@
     padding: 15px;
 }
 
-#information {
+.card__information {
     width: 298px;
     height: 345px;
     border: 1px solid black;
     padding: 15px;
 }
 
-.italicized {
+.card__fact {
     font-style: italic;
 }
 
@@ -36,4 +36,15 @@ ul {
 li {
     list-style-type: none;
     align-items: start;
+}
+
+em {
+    font-style: normal;
+}
+
+h3:hover,
+p:hover,
+li:hover {
+    background-color: yellow;
+    font: small-caps bold 15px Georgia, serif;
 }
