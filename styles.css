@@ -1,0 +1,39 @@
+/* add your CSS here */
+#card {
+    width: 370px;
+    height: 675px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#floater {
+    width: 330px;
+    height: 640px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px lightgray;
+    padding: 15px;
+}
+
+#information {
+    width: 298px;
+    height: 345px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+    align-items: start;
+}
