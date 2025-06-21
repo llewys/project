@@ -38,10 +38,6 @@ li {
     align-items: start;
 }
 
-em {
-    font-style: normal;
-}
-
 h3:hover,
 p:hover,
 li:hover {
